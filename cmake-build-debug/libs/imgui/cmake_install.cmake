@@ -1,4 +1,4 @@
-# Install script for directory: /home/matf-racunarska-grafika/Desktop/projekat/project_base/libs/imgui
+# Install script for directory: /home/matf-racunarska-grafika/Documents/GitHub/rg_project/libs/imgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

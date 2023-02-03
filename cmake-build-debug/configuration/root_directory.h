@@ -1,1 +1,1 @@
-const char * logl_root = "/home/matf-racunarska-grafika/Desktop/projekat/project_base";
+const char * logl_root = "/home/matf-racunarska-grafika/Documents/GitHub/rg_project";

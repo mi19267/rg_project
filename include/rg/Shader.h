@@ -17,8 +17,8 @@ class Shader {
     unsigned int m_Id;
 public:
     Shader(std::string vertexShaderPath, std::string fragmentShaderPath) {
-        appendShaderFolderIfNotPresent(vertexShaderPath);
-        appendShaderFolderIfNotPresent(fragmentShaderPath);
+//        appendShaderFolderIfNotPresent(vertexShaderPath);
+//        appendShaderFolderIfNotPresent(fragmentShaderPath);
         // build and compile our shader program
         // ------------------------------------
         // vertex shader
@@ -71,6 +71,7 @@ public:
     // ------------------------------------------------------------------------
     void use()
     {
+        ASSERT(m_Id > 0, "Use of undefined or deleted program!");
         glUseProgram(m_Id);
     }
     // utility uniform functions
